@@ -7,3 +7,8 @@ truffle init
 then
 
 npm start
+
+
+To test;
+
+truffle test
