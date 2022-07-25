@@ -1,14 +1,5 @@
-If you want to run this project, you'll need truffle and static-server installed.
+To test, use `truffle test`
 
-To run;
+To run the project, use `npm start` from within frontend directory. You will need static server installed. You can install this by using `npm i -g static-server`.
 
-truffle init
-
-then
-
-npm start
-
-
-To test;
-
-truffle test
+If you want to redeploy, from the root, use `truffle develop` and then `migrate --reset`. Remember, you will need to replace the contract ABI and contract address in bundle.js
